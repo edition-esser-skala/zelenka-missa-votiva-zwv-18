@@ -1,0 +1,81 @@
+\version "2.22.0"
+
+#(define option-movement-title-format "number-title")
+#(define option-init-toc #t)
+#(define option-print-all-bar-numbers #f)
+\include "ees.ly"
+
+
+vv = \markup \remark "Vv."
+vvE = \markup \remarkE "Vv."
+sostenuto = \markup \remark "sostenuto"
+sostenutoE = \markup \remarkE "sostenuto"
+
+
+tempoKyrieI = \tempoMarkup "Vivace"
+tempoChriste = \tempoMarkup "Vivace"
+tempoKyrieII = \tempoMarkup "[Tempo deest]"
+tempoKyrieIIb = \tempoMarkup "Adagio"
+tempoKyrieIIc = \tempoMarkup "[Vivace]"
+
+tempoGloria = \tempoMarkup "Allegro"
+tempoGratias = \tempoMarkup "Andante"
+tempoDomineDeus = \tempoMarkup "Allegro"
+tempoDomineDeusFinis = \tempoMarkup "Adagio"
+tempoQuiTollis = \tempoMarkup "Larghetto"
+tempoQuiTollisCadenza = \tempoMarkup "Adagio"
+tempoATempoE = \tempoMarkup "[a tempo]"
+tempoQuiSedes = \tempoMarkup "Largo"
+tempoQuiSedesb = \tempoMarkup "Allegro assai"
+tempoQuiSedesc = \tempoMarkup "Adagio"
+tempoQuoniam = \tempoMarkup "Allegro e spiritoso / Allegro assai"
+tempoQuoniamb = \tempoMarkup "Adagio"
+tempoCumSancto = \tempoMarkup "Andante"
+tempoCumSanctob = \tempoMarkup "Adagio"
+tempoCumSanctoc = \tempoMarkup "Allegro assai"
+tempoCumSanctod = \tempoMarkup "Adagio"
+tempoCumSanctoe = \tempoMarkup "Allegro"
+
+tempoCredo = \tempoMarkup "Allegro"
+tempoCredob = \tempoMarkup "Adagio"
+tempoCredoc = \tempoMarkup "Allegro"
+tempoEtIncarnatus = \tempoMarkup "Larghetto"
+tempoEtIncarnatusFinis = \tempoMarkup "Adagio"
+tempoCrucifixus = \tempoMarkup "Andante"
+tempoCrucifixusFinis = \tempoMarkup "Adagio"
+tempoEtResurrexit = \tempoMarkup "Allegro assai"
+tempoEtResurrexitb = \tempoMarkup "Adagio"
+tempoEtResurrexitc = \tempoMarkup "Allegro"
+tempoEtResurrexitd = \tempoMarkup "Adagio"
+tempoEtResurrexite = \tempoMarkup "Allegro"
+
+tempoSanctus = \tempoMarkup "Grave"
+tempoPleni = \tempoMarkup "Allegro"
+tempoPlenib = \tempoMarkup "Adagio"
+tempoPlenic = \tempoMarkup "Allegro"
+tempoPlenid = \tempoMarkup "Adagio"
+
+tempoBenedictus = \tempoMarkup "Allegretto"
+tempoBenedictusb = \tempoMarkup "Adagio"
+tempoBenedictusc = \tempoMarkup "[a tempo]"
+tempoOsanna = \tempoMarkup "Vivace"
+tempoOsannab = \tempoMarkup "Adagio"
+
+tempoAgnusDei = \tempoMarkup "Largo"
+tempoAgnusDeib = \tempoMarkup "Larghetto"
+tempoAgnusDeic = \tempoMarkup "Adagio"
+tempoAgnusDeid = \tempoMarkup "[Tempo primo]"
+tempoAgnusDeie = \tempoMarkup "Adagio"
+tempoDonaNobis = \tempoMarkup "Allegro"
+
+
+\include "notes/ob1.ly"
+\include "notes/ob2.ly"
+\include "notes/vl1.ly"
+\include "notes/vl2.ly"
+\include "notes/vla.ly"
+\include "notes/S.ly"
+\include "notes/A.ly"
+\include "notes/T.ly"
+\include "notes/B.ly"
+\include "notes/org.ly"

@@ -1,24 +1,28 @@
-composer: Zelenka, Jan Dismas
+composer:
+  last: Zelenka
+  first: Jan Dismas
 title: Missa Votiva
+subtitle: "Vota mea Domino reddam Psal: 115. Versu. 5"
 id: ZWV 18
 genre: mass
 scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 vl, vla, b, org
+license: cc-by-sa-4.0
 sources:
-  1:
+  A1:
     siglum: D-Dl
     shelfmark: Mus.2358-D-33,1
-    type: autograph manuscript
     date: 1739
     rism: 212006536
-    url: http://digital.slub-dresden.de/id426603273
-  2:
+    url: https://digital.slub-dresden.de/id426603273
+    license: public domain
+    principal: true
+    notes: Kyrie and Gloria
+  A2:
     siglum: D-Dl
     shelfmark: Mus.2358-D-33,2
-    type: autograph manuscript
     date: 1739
     rism: 212006537
-    url: http://digital.slub-dresden.de/id426603249
-github: zelenka-missa-votiva-zwv-18
+    url: https://digital.slub-dresden.de/id426603249
+    license: public domain
+    notes: Credo, Sanctus, and Agnus Dei
 imslp: Missa_Votiva,_ZWV_18_(Zelenka,_Jan_Dismas)
-notes:
-
